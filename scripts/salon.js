@@ -1,30 +1,30 @@
-let zeek = {
-    name: "Zeek",
-    age: 4,
-    gender: 'male',
-    service: "Nail Trim",
-    breed: "Retriever"
-}
-let paws = {
-    name: "Paws",
-    age: 1,
-    gender: 'female',
-    service: "Wash",
-    breed: "Siamese"
-}
-let hera = {
-    name: "Hera",
-    age: 2,
-    gender: 'female',
-    service: "Styling",
-    breed: "Labrador"
-}
-
-let pets = [
-    zeek,
-    hera,
-    paws
-]
+// let zeek = {
+//     name: "Zeek",
+//     age: 4,
+//     gender: 'male',
+//     service: "Nail Trim",
+//     breed: "Retriever"
+// }
+// let paws = {
+//     name: "Paws",
+//     age: 1,
+//     gender: 'female',
+//     service: "Wash",
+//     breed: "Siamese"
+// }
+// let hera = {
+//     name: "Hera",
+//     age: 2,
+//     gender: 'female',
+//     service: "Styling",
+//     breed: "Labrador"
+// }
+//
+// let pets = [
+//     zeek,
+//     hera,
+//     paws
+// ]
 
 function updatePetCount() {
   const petCountElement = document.getElementById("petCount");
