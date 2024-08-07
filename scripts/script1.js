@@ -43,3 +43,19 @@ let result2 = doubleNumber(9)
 
 console.log(result1)
 console.log(result2)
+
+//Getting values from the prompt
+// let sampleNum = parseInt(prompt("Enter a number:"))
+// console.log(sampleNum * 2);
+
+//Challenge 2
+function rectangleArea(length, width){
+    let area = length * width
+    return area
+}
+// let length = Number(prompt("Enter the length:"));
+// let width = Number(prompt("Enter the width:"));
+//
+// let area = rectangleArea(length, width)
+// console.log(`The area of your rectangle is ${area}.`);
+

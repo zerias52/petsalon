@@ -20,7 +20,11 @@ let hera = {
     breed: "Labrador"
 }
 
-let pets = [zeek, hera, paws]
+let pets = [
+    zeek,
+    hera,
+    paws
+]
 
 function updatePetCount() {
   const petCountElement = document.getElementById("petCount");
