@@ -14,7 +14,7 @@
 <body class="container">
     <header class="site-header">
             <div class="container">
-                <h1>Register</h1>
+                <h1>Pet Salon</h1>
 
                 <nav class="navbar">
                     <a href="index.html">Home</a>
@@ -23,10 +23,10 @@
                 </nav>
             </div>
     </header>
-    <main>
+    <main class="main-cont">
             <div class="class-form">
                 <form action="#" class="register-form">
-                    <p class="title-form">Register Form</p>
+                    <p class="title-form secondary-text">Register Form</p>
                     <input placeholder="Pet Name" type="text" id="txtName">
                     <input placeholder="Age" type="number" id="txtAge">
                     <select name="" id="txtGender">
@@ -34,20 +34,27 @@
                         <option value="F">Female</option>
                     </select>
                     <input placeholder="Breed" type="text" id="txtBreed">
-
-
+                    <select name="service" id="txtService">
+                        <option value="Nail Trim">Nail Trim</option>
+                        <option value="Groom">Groom</option>
+                        <option value="Groom + Style">Groom + Style</option>
+                        <option value="Full Package">Full Package</option>
+                    </select>
                 </form>
                 <button class="btn btn-primary" onclick="register()">Register</button>
             </div>
-
-            <div>
+            <div class="class-table">
+                <h2 class="title-form">Registered Pets: <span id="petCount"></span></h2>
                 <table class="table table-striped">
                   <thead>
                     <tr>
-                      <th scope="col">Name</th>
-                      <th scope="col">Age</th>
-                      <th scope="col">Gender</th>
-                      <th scope="col">Breed</th>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Gender</th>
+                        <th scope="col">Breed</th>
+                        <th scope="col">Service</th>
+                        <th scope="col">Actions</th>
                     </tr>
                   </thead>
                   <tbody id="pets">

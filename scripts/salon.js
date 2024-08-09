@@ -30,7 +30,6 @@ function updatePetCount() {
   const petCountElement = document.getElementById("petCount");
   petCountElement.textContent = pets.length;
 }
-updatePetCount()
 
 function petList(){
     const petList = document.getElementById("pet-list");
@@ -42,7 +41,7 @@ function petList(){
         petList.appendChild(petName);
     }
 }
-petList()
+
 
 function averagePetAge(){
     let total = 0
