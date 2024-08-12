@@ -24,6 +24,9 @@ a{
 .error{
     background-color: red;
 }
+.errorText{
+    color: red;
+}
 /*Text Styles*/
 .main-text{
     font-weight: 900;
@@ -72,6 +75,7 @@ nav a{
     display: flex;
     flex-direction: column;
     gap: 40px;
+    text-align: center;
 
 }
 /*Pet Info*/
