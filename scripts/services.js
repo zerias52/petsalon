@@ -1,8 +1,3 @@
-// Create another page named services.html and create another form to register services (description, price).
-// Create the constructor for the services objects.
-//  Create validations and notifications for the new form using jQuery.
-//  Clear the form after the registration of the services using jQuery.
-
 let services = []
 
 // constructor
@@ -42,14 +37,11 @@ function register(){
 
     let newService = new Service($("#txtDescription").val(), $("#txtPrice").val());
     if (validService(newService) === true){
-        services.push(newService);
-        console.log(services);
-        $("#txtDescription").val("")
-        $("#txtPrice").val("")
+        save(newService)
+        $("input").val("")
     }else{
         console.log("Invalid Service");
     }
-
 }
 
 function init(){

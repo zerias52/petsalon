@@ -11,15 +11,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 </head>
-<body class="container">
+<body>
     <header class="site-header">
             <div class="container">
-                <h1>Pet Salon</h1>
+                <div class="header-line">
+                <h1>The Pampered Pet</h1>
+                <img class="header-img" src="./img/blacksilhouette.png" alt="">
+                </div>
 
                 <nav class="navbar">
                     <a href="index.html">Home</a>
-                    <a href="services.html">Services</a>
                     <a href="register.html">Register</a>
+                    <a href="services.html">Services</a>
                 </nav>
             </div>
     </header>
@@ -40,11 +43,12 @@
                         <option value="Groom + Style">Groom + Style</option>
                         <option value="Full Package">Full Package</option>
                     </select>
+                    <button class="btn btn-primary" onclick="register()">Register</button>
                 </form>
-                <button class="btn btn-primary" onclick="register()">Register</button>
+
             </div>
             <div class="class-table">
-                <h2 class="title-form">Registered Pets: <span id="petCount"></span></h2>
+                <h2 class="title-table">Registered Pets: <span id="petCount"></span></h2>
                 <table class="table table-striped">
                   <thead>
                     <tr>
