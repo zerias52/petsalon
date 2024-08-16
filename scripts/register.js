@@ -62,6 +62,7 @@ function init(){
     let pet4= new Pet("Tweet", 1, "F", "Canary", "Full Package")
     pets.push(pet1,pet2,pet3,pet4);
     displayRow()
+    getServices()
 }
 
 window.onload = init;

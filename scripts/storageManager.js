@@ -23,3 +23,18 @@ function read(){
     return list
     }
 }
+
+function getServices(){
+    //get the list from the LS
+    let servicesArray = read()
+
+    let options
+    //travel the array of services
+    for(i=0;i < servicesArray.length;i++){
+        //create the HTML <option>
+        options+=`
+        <option value=${servicesArray[i].description}>${servicesArray[i].description}</option>
+        `
+    }
+    $("#txtService").append(options)
+}

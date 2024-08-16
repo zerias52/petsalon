@@ -38,10 +38,7 @@
                     </select>
                     <input placeholder="Breed" type="text" id="txtBreed">
                     <select name="service" id="txtService">
-                        <option value="Nail Trim">Nail Trim</option>
-                        <option value="Groom">Groom</option>
-                        <option value="Groom + Style">Groom + Style</option>
-                        <option value="Full Package">Full Package</option>
+                        <option value="" selected disabled>--Select a Service--</option>
                     </select>
                     <button class="btn btn-primary" onclick="register()">Register</button>
                 </form>
@@ -67,7 +64,9 @@
                 </table>
             </div>
     </main>
+    <script src="./plugins/jQuery.js"></script>
     <script src="./scripts/register.js"></script>
     <script src="./scripts/display.js"></script>
+    <script src="scripts/storageManager.js"></script>
 </body>
 </html>

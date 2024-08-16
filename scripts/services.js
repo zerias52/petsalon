@@ -47,7 +47,6 @@ function register(){
 function init(){
     //hook events
     $("#btnRegister").on("click", register);
-
     $("#descRequiredText").hide()
     $("#priceRequiredText").hide()
 }
